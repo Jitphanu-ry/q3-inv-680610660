@@ -39,10 +39,17 @@ export function CategoryCards() {
 
         return (
           // Use Card component to display values by category
-          <div>
-            {category.label} - ฿{categoryValue.toFixed(2)} - {categoryUnits}{" "}
-            units
-          </div>
+          <Card>
+            <CardContent>
+              {category.label}
+            </CardContent>
+            <CardContent>
+              ฿{categoryValue.toFixed(2)}
+            </CardContent>
+            <CardContent>
+              {categoryUnits}{" "} units
+            </CardContent>
+          </Card>
         );
       })}
     </div>
