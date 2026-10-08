@@ -28,9 +28,11 @@ export function StudentInfo() {
             <CardTitle>Jitphanu Riyasarn</CardTitle>
               นักศึกษามหาวิทยาลัยเชียงใหม่
           </CardHeader>
-          <span>Hobbies: ดูหนัง,ฟังเพลง,เล่นเกม</span>
-          <span>Email:jitphanuriyasarn@gmail.com</span>
-          <span>Social:https://www.facebook.com/jitphanu.riyasarn/</span>
+          <CardContent>
+            Hobbies : ดูหนัง,ฟังเพลง,เล่นเกม
+            Email : jitphanuriyasarn@gmail.com
+            Social : https://www.facebook.com/jitphanu.riyasarn/
+          </CardContent>
           <CardFooter>รหัสนักศึกษา:680610660</CardFooter>
         </Card>
       <DrawerFooter>
