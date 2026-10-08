@@ -9,7 +9,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 
 export function StudentInfo() {
@@ -23,12 +23,15 @@ export function StudentInfo() {
         <DrawerDescription>Student information</DrawerDescription>
       </DrawerHeader>
         <Card className="p-4">
-          <span>Jitphanu Riyasarn</span>
-          <span>นักศึกษามหาวิทยาลัยเชียงใหม่</span>
+          <img src="me1.webp"/>
+          <CardHeader>
+            <CardTitle>Jitphanu Riyasarn</CardTitle>
+              นักศึกษามหาวิทยาลัยเชียงใหม่
+          </CardHeader>
           <span>Hobbies: ดูหนัง,ฟังเพลง,เล่นเกม</span>
           <span>Email:jitphanuriyasarn@gmail.com</span>
-          <span>Social:</span>
-          <span>รหัสนักศึกษา:680610660</span>
+          <span>Social:https://www.facebook.com/jitphanu.riyasarn/</span>
+          <CardFooter>รหัสนักศึกษา:680610660</CardFooter>
         </Card>
       <DrawerFooter>
       </DrawerFooter>
